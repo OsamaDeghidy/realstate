@@ -41,6 +41,7 @@ enum Amenity {
   Parking
   PetsAllowed
   WiFi
+  Car
 }
 
 enum PropertyType {
@@ -50,6 +51,7 @@ enum PropertyType {
   Villa
   Townhouse
   Cottage
+  Car
 }
 
 enum ApplicationStatus {

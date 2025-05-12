@@ -281,3 +281,17 @@ const map = new mapboxgl.Map({
       style: "mapbox://styles/89fares/cma6vsrwf00f001sl0rt42p41",
 
 
+
+
+…or create a new repository on the command line
+echo "# realstate" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/OsamaDeghidy/realstate.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/OsamaDeghidy/realstate.git
+git branch -M main
+git push -u origin main
